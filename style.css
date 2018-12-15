@@ -161,3 +161,16 @@ i {
 
 .winner { background-color: #f7f7ab; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+#win-score {
+    position: absolute;
+    left: 50%;
+    top: 530px;
+    transform: translateX(-50%);
+    width: 150px;
+    font-size: 18px;
+}
+
+#win-score:focus {
+    outline: none;
+}
